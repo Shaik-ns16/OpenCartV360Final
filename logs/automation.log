@@ -1,0 +1,47 @@
+18:20:46.207 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\eclipse-SeleniumTesting-Java\OpenCartV360\master.xml
+
+18:20:48.809 [main] INFO  testCases.TC003_LoginDataDrivenTest - ***** TC003_LoginDataDrivenTest Started *****
+18:20:48.824 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicking myAccount link..
+18:20:48.890 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicking login link to open login page..
+18:20:49.085 [main] INFO  testCases.TC003_LoginDataDrivenTest - Entering email..
+18:20:49.147 [main] INFO  testCases.TC003_LoginDataDrivenTest - Entering password..
+18:20:49.187 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicking login button..
+18:20:49.944 [main] INFO  testCases.TC003_LoginDataDrivenTest - Validating my Account page opened..
+18:20:49.944 [main] INFO  testCases.TC003_LoginDataDrivenTest - Login using valid data passed and test passed
+18:20:50.225 [main] INFO  testCases.TC003_LoginDataDrivenTest - ***** TC003_LoginDataDrivenTest finished *****
+18:20:50.229 [main] INFO  testCases.TC003_LoginDataDrivenTest - ***** TC003_LoginDataDrivenTest Started *****
+18:20:50.229 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicking myAccount link..
+18:20:50.270 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicking login link to open login page..
+18:20:50.463 [main] INFO  testCases.TC003_LoginDataDrivenTest - Entering email..
+18:20:50.508 [main] INFO  testCases.TC003_LoginDataDrivenTest - Entering password..
+18:20:50.539 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicking login button..
+18:21:01.005 [main] INFO  testCases.TC003_LoginDataDrivenTest - Validating my Account page opened..
+18:21:01.017 [main] INFO  testCases.TC003_LoginDataDrivenTest - Invalid or empty data so the login failed and test passed
+18:21:01.017 [main] INFO  testCases.TC003_LoginDataDrivenTest - ***** TC003_LoginDataDrivenTest finished *****
+18:21:01.017 [main] INFO  testCases.TC003_LoginDataDrivenTest - ***** TC003_LoginDataDrivenTest Started *****
+18:21:01.017 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicking myAccount link..
+18:21:01.072 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicking login link to open login page..
+18:21:01.318 [main] INFO  testCases.TC003_LoginDataDrivenTest - Entering email..
+18:21:01.361 [main] INFO  testCases.TC003_LoginDataDrivenTest - Entering password..
+18:21:01.397 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicking login button..
+18:21:02.343 [main] INFO  testCases.TC003_LoginDataDrivenTest - Validating my Account page opened..
+18:21:02.343 [main] INFO  testCases.TC003_LoginDataDrivenTest - Invalid or empty data so the login passed and test failed
+18:21:02.766 [main] INFO  testCases.TC003_LoginDataDrivenTest - ***** TC003_LoginDataDrivenTest Started *****
+18:21:02.766 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicking myAccount link..
+18:21:02.803 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicking login link to open login page..
+18:21:03.029 [main] INFO  testCases.TC003_LoginDataDrivenTest - Entering email..
+18:21:03.070 [main] INFO  testCases.TC003_LoginDataDrivenTest - Entering password..
+18:21:03.105 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicking login button..
+18:21:13.163 [main] INFO  testCases.TC003_LoginDataDrivenTest - Validating my Account page opened..
+18:21:13.163 [main] INFO  testCases.TC003_LoginDataDrivenTest - Invalid or empty data so the login failed and test passed
+18:21:13.163 [main] INFO  testCases.TC003_LoginDataDrivenTest - ***** TC003_LoginDataDrivenTest finished *****
+18:21:13.163 [main] INFO  testCases.TC003_LoginDataDrivenTest - ***** TC003_LoginDataDrivenTest Started *****
+18:21:13.163 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicking myAccount link..
+18:21:13.209 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicking login link to open login page..
+18:21:13.384 [main] INFO  testCases.TC003_LoginDataDrivenTest - Entering email..
+18:21:13.429 [main] INFO  testCases.TC003_LoginDataDrivenTest - Entering password..
+18:21:13.462 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicking login button..
+18:21:14.359 [main] INFO  testCases.TC003_LoginDataDrivenTest - Validating my Account page opened..
+18:21:14.359 [main] INFO  testCases.TC003_LoginDataDrivenTest - Login using valid data passed and test passed
+18:21:14.672 [main] INFO  testCases.TC003_LoginDataDrivenTest - ***** TC003_LoginDataDrivenTest finished *****
