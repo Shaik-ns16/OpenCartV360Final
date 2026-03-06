@@ -118,6 +118,8 @@ Example report location:
 
 /reports/ExtentReport.html
 
+![image alt](https://github.com/Shaik-ns16/OpenCartV360Final/blob/3df2173bf1057e44cd63f0f5f28ad3a14b0a127f/extent-report.png)
+
 ![image alt](https://github.com/Shaik-ns16/OpenCartV360Final/blob/9a8835cabd91b564794a9cb74d0a737c91036f10/Screenshot-extent-report.png)
 
 🐳 Docker Execution
