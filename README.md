@@ -70,6 +70,8 @@ Jenkins	CI/CD
 Docker	Containerization
 Selenium Grid	Parallel & Remote Execution
 GitHub	Version Control
+
+
 ⚡ Key Features
 
 ✅ Page Object Model (POM) architecture
