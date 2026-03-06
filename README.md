@@ -152,13 +152,26 @@ Tests execute on Selenium Grid
 
 Extent Reports are generated
 
-▶️ How to Run the Tests
-Clone Repository
+▶️ How to Run the Project
+
+Clone the repository
+
 git clone https://github.com/Shaik-ns16/OpenCartV360Final.git
-Run Using Maven
+
+Navigate to project directory
+
+cd OpenCartV360Final
+
+Run tests using Maven
+
 mvn clean test
-Run Specific TestNG Suite
-mvn test -DsuiteXmlFile=testng.xml
+
+Run tests on Selenium Grid
+
+docker-compose up
+
+Run tests via Jenkins pipeline.
+
 📸 Screenshot on Failure
 
 If any test fails, the framework automatically:
