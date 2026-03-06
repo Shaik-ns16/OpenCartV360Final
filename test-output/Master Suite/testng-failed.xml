@@ -8,13 +8,13 @@
     <parameter name="os" value="Windows 11"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC003_LoginDataDrivenTest">
+      <class name="testCases.TC006_EndToEndTest">
         <methods>
+          <include name="verify_EndToEnd_Checkout"/>
           <include name="tearOff"/>
           <include name="setup"/>
-          <include name="verify_loginDDT" invocation-numbers="2"/>
         </methods>
-      </class> <!-- testCases.TC003_LoginDataDrivenTest -->
+      </class> <!-- testCases.TC006_EndToEndTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

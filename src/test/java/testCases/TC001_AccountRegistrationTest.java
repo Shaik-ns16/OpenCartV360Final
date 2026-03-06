@@ -10,7 +10,7 @@ import utilities.DriverFactory;
 
 public class TC001_AccountRegistrationTest extends BaseClass{
 
-	@Test(groups= {"Regression","Master"})
+	@Test(groups= {"Sanity","Master"})
 	public void verify_account_registration()
 	{
 		
