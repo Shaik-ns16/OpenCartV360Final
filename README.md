@@ -31,33 +31,44 @@ Containerized test execution using Docker
 
 The framework is structured using Page Object Model (POM) for better maintainability and reusability.
 
-OpenCartV360Final
-│
-├── src/test/java
-│   ├── testCases
-│   │   ├── TC001_AccountRegistrationTest
-│   │   ├── TC002_LoginTest
-│   │
-│   ├── pageObjects
-│   │   ├── BasePage
-│   │   ├── HomePage
-│   │   ├── LoginPage
-│   │   ├── RegistrationPage
-│   │
-│   ├── utilities
-│   │   ├── DriverFactory
-│   │   ├── ExtentReportManager
-│   │   ├── Listeners
-│   │
-│   ├── testBase
-│   │   ├── BaseClass
-│
-├── src/test/resources
-│   ├── config.properties
-│
-├── docker-compose.yml
-├── testng.xml
-├── pom.xml
+                    +---------------------+
+                    |      TestNG         |
+                    |   Test Execution    |
+                    +----------+----------+
+                               |
+                               v
+                    +---------------------+
+                    |     Test Classes    |
+                    | (Test Cases Layer)  |
+                    +----------+----------+
+                               |
+                               v
+                    +---------------------+
+                    |    Page Objects     |
+                    |   (POM Classes)     |
+                    +----------+----------+
+                               |
+                               v
+                    +---------------------+
+                    |    Base Classes     |
+                    |  DriverFactory      |
+                    +----------+----------+
+                               |
+                               v
+                    +---------------------+
+                    | Selenium WebDriver  |
+                    +----------+----------+
+                               |
+                               v
+                    +---------------------+
+                    | Selenium Grid       |
+                    | Docker Containers   |
+                    +----------+----------+
+                               |
+                               v
+                    +---------------------+
+                    | Jenkins CI/CD       |
+                    +---------------------+
 
 🛠 Tech Stack
 Tool	Purpose
