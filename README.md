@@ -134,6 +134,8 @@ Chrome Node
 
 Firefox Node
 
+https://github.com/Shaik-ns16/OpenCartV360Final/blob/514084d4c91bba7fe686d4e2302ba5c968604ef4/docker_linux_grid.png
+
 🔁 Jenkins CI/CD Integration
 
 The project supports automated execution through Jenkins pipeline.
