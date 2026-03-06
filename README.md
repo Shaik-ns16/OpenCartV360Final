@@ -190,16 +190,6 @@ TestNG + ThreadLocal WebDriver
 
 This allows running tests simultaneously across multiple browsers.
 
-🎯 Future Enhancements
-
-API automation integration (Rest Assured)
-
-Playwright implementation
-
-Allure Reporting
-
-Cloud execution (BrowserStack / LambdaTest)
-
 👨‍💻 Author
 
 Shaik Noordeen
