@@ -105,6 +105,7 @@ Timestamped reports
 Example report location:
 
 /reports/ExtentReport.html
+
 🐳 Docker Execution
 
 This framework supports Selenium Grid execution using Docker containers.
