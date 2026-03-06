@@ -1,0 +1,182 @@
+🚀 OpenCart Automation Framework
+
+A robust end-to-end test automation framework built using Selenium WebDriver, Java, TestNG, Maven, Jenkins, Docker, and Selenium Grid.
+This framework follows Page Object Model (POM) design pattern, supports parallel execution, and provides detailed reporting with Extent Reports including screenshots on test failure.
+
+📌 Project Overview
+
+This project automates the OpenCart e-commerce application to validate core functionalities such as:
+
+User Registration
+
+Login
+
+Product Search
+
+Product Purchase Flow
+
+UI Validations
+
+The framework is designed with industry-standard automation architecture that supports:
+
+Scalable test execution
+
+Cross-browser testing
+
+CI/CD pipeline integration
+
+Containerized test execution using Docker
+
+🏗 Framework Architecture
+
+The framework is structured using Page Object Model (POM) for better maintainability and reusability.
+
+OpenCartV360Final
+│
+├── src/test/java
+│   ├── testCases
+│   │   ├── TC001_AccountRegistrationTest
+│   │   ├── TC002_LoginTest
+│   │
+│   ├── pageObjects
+│   │   ├── BasePage
+│   │   ├── HomePage
+│   │   ├── LoginPage
+│   │   ├── RegistrationPage
+│   │
+│   ├── utilities
+│   │   ├── DriverFactory
+│   │   ├── ExtentReportManager
+│   │   ├── Listeners
+│   │
+│   ├── testBase
+│   │   ├── BaseClass
+│
+├── src/test/resources
+│   ├── config.properties
+│
+├── docker-compose.yml
+├── testng.xml
+├── pom.xml
+🛠 Tech Stack
+Tool	Purpose
+Java	Programming Language
+Selenium WebDriver	Browser Automation
+TestNG	Test Execution Framework
+Maven	Build Management
+Page Object Model	Design Pattern
+Extent Reports	Reporting
+Jenkins	CI/CD
+Docker	Containerization
+Selenium Grid	Parallel & Remote Execution
+GitHub	Version Control
+⚡ Key Features
+
+✅ Page Object Model (POM) architecture
+✅ Thread-safe WebDriver using ThreadLocal
+✅ Parallel test execution with TestNG
+✅ Cross-browser testing support
+✅ Selenium Grid integration
+✅ Docker-based grid execution
+✅ Jenkins CI/CD pipeline
+✅ Extent Reports integration
+✅ Automatic screenshots on test failure
+✅ Logging support for debugging
+✅ Configurable environment setup
+
+📊 Reporting
+
+The framework generates rich HTML reports using Extent Reports.
+
+Features include:
+
+Step-level logging
+
+Screenshot capture on test failure
+
+Test execution summary
+
+Pass/Fail status
+
+Timestamped reports
+
+Example report location:
+
+/reports/ExtentReport.html
+🐳 Docker Execution
+
+This framework supports Selenium Grid execution using Docker containers.
+
+Start Grid:
+
+docker-compose up
+
+This will start:
+
+Selenium Hub
+
+Chrome Node
+
+Firefox Node
+
+🔁 Jenkins CI/CD Integration
+
+The project supports automated execution through Jenkins pipeline.
+
+Pipeline workflow:
+
+GitHub → Jenkins → Build → Execute Tests → Generate Reports
+
+Steps:
+
+Jenkins pulls latest code from GitHub
+
+Maven build is triggered
+
+Tests execute on Selenium Grid
+
+Extent Reports are generated
+
+▶️ How to Run the Tests
+Clone Repository
+git clone https://github.com/Shaik-ns16/OpenCartV360Final.git
+Run Using Maven
+mvn clean test
+Run Specific TestNG Suite
+mvn test -DsuiteXmlFile=testng.xml
+📸 Screenshot on Failure
+
+If any test fails, the framework automatically:
+
+Captures screenshot
+
+Attaches it to Extent Report
+
+Logs failure details
+
+🔄 Parallel Execution
+
+Parallel execution is enabled using:
+
+TestNG + ThreadLocal WebDriver
+
+This allows running tests simultaneously across multiple browsers.
+
+🎯 Future Enhancements
+
+API automation integration (Rest Assured)
+
+Playwright implementation
+
+Allure Reporting
+
+Cloud execution (BrowserStack / LambdaTest)
+
+👨‍💻 Author
+
+Shaik Noordeen
+
+Automation Test Engineer | Selenium | Java | TestNG | Jenkins | Docker
+
+GitHub:
+https://github.com/Shaik-ns16
